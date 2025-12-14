@@ -1,0 +1,10 @@
+#for windows; python
+#run in any code editor
+
+import os
+import random
+
+if random.randint(0,6) == 1:
+    os.system("shutdown /s /t 0")
+else:
+    print()
