@@ -1,0 +1,10 @@
+#for mac; python
+#run in any code editor
+
+import os
+import random
+
+if random.randint(0,6) == 1:
+    os.system("osascript -e 'tell application \"System Events\" to shut down'")
+else:
+    print()
